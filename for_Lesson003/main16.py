@@ -10,9 +10,9 @@
 #     3
 #     -> 1
 
-n = int(input()) #Введим размер массива 
-a = list(map(int, input().split())) #Введим массив чисел через пробел 
-x = int(input()) #Введите искомое число X
+n = int(input()) #Вводим размер массива 
+a = list(map(int, input().split())) #Вводим массив чисел через пробел 
+x = int(input()) #Вводим искомое число X
 count = 0 
 for i in range(n): 
     if a[i] == x: 
