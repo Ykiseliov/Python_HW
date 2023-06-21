@@ -9,4 +9,3 @@ data.loc[data['whoAmI'] != 'robot', 'robot_group'] = '0'
 data.loc[data['whoAmI'] == 'human', 'human_group'] = '1'
 data.loc[data['whoAmI'] != 'human', 'human_group'] = '0'
 data.head(10)
-print(hz)
